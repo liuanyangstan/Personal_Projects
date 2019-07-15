@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>search</servlet-name>
+        <servlet-class>rpc.SearchItem</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>search</servlet-name>
+        <url-pattern>/Jupiter/search</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>history</servlet-name>
+        <servlet-class>rpc.ItemHistory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>history</servlet-name>
+        <url-pattern>/Jupiter/history</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>rpc.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/Jupiter/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>rpc.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/Jupiter/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>rpc.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/Jupiter/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>recommendation</servlet-name>
+        <servlet-class>rpc.RecommendItem</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>recommendation</servlet-name>
+        <url-pattern>/Jupiter/recommendation</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<web-app xmlns="http://java.sun.com/xml/ns/javaee"-->
+           <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+           <!--xsi:schemaLocation="http://java.sun.com/xml/ns/javaee-->
+		  <!--http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"-->
+           <!--version="3.1">-->
+
+<!--</web-app>-->
