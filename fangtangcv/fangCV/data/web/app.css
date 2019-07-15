@@ -1,0 +1,70 @@
+.menu-square
+{
+    display: inline-block;
+    background-color: #ccc;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.menu-square_large
+{
+    display: inline-block;
+    background-color: #ccc;
+    width:24px;
+    height: 24px;
+    margin-right:5px;
+}
+
+.container
+{
+    max-width: 600px;
+}
+
+.resume-list
+{
+    padding: 0px;
+    font-size: 16px!important;
+}
+
+.resume-list li
+{
+    margin: 0px;
+    list-style: inside;
+    list-style-image: url(image/portrait.png);
+}
+
+.resume-list li .title
+{
+    display: inline-block;
+    border: 2px solid #eee;
+    text-decoration: none;
+    color: rgb( 0, 152, 255 );
+    line-height: 50px;
+}
+
+.resume-list li *:not(.title)
+{
+    padding-left: 5px;
+    display: inline-block;
+}
+
+h1.page-title
+{
+    color: #ccc;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.no-padding
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.page-box
+{
+    padding: 10px;
+
+}

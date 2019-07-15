@@ -1,0 +1,27 @@
+{
+    "name": "fangtang/cv",
+    "description": "resume system",
+    "type": "project",
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
+    "authors": [
+        {
+            "name": "liuanyangstan",
+            "email": "liuanyangstan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": ["framework/lib/function.php", "framework/config/app.config.php"],
+        "psr-4": {
+            "FangFrame\\Controller\\": "framework/controller/"
+        }
+    },
+    "repositories":
+    {
+    	"packagist": {
+    		"type": "composer",
+    		"url": "https://packagist.phpcomposer.com"
+    	}
+    }
+}
