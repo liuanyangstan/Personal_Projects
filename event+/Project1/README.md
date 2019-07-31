@@ -1,0 +1,1 @@
+# event+ is an interactive web page for users to search events and purchase tickets. It uses TicketMaster API to grab the events nearby the current location.

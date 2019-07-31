@@ -1,0 +1,1 @@
+# Hermes is a Spring and Hibernate based Shopping and Ordering system, pretty much like Amazon.
